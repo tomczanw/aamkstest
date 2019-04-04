@@ -8,7 +8,7 @@ class TestStringMethod(unittest.TestCase):
         expected = 3
         self.assertEqual(result, expected)
 
-    def text_count_other_string(self):
+    def test_text_count_other_string(self):
         result = count_letter("ABBA", "A")
         expected = 2
         self.assertEqual(result, expected)
